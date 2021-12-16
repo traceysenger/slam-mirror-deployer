@@ -1,0 +1,6 @@
+apt-get update -y
+apt-get install -y git
+git clone https://github.com/traceysenger/slam-mirrorbot.git Url_Uploader
+cd Url_Uploader
+pip3 install requirements.txt
+python3 -m bot
