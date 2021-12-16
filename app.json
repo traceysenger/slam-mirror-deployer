@@ -1,0 +1,17 @@
+{
+    "name": "SLAM Mirror Heroku Deployer",
+    "description": " Telegram Bot written in Python for mirroring files on the Internet to our beloved Google Drive.",
+    "env": {
+        "CONFIG_FILE_URL": {
+            "description": "The RAW link of your config.env file",
+            "value": "",
+            "required": true
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
